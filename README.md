@@ -20,3 +20,5 @@
 - 使用vite-plugin-svg-icons进行SVG图片统一管理
 - 对Axios接口请求进行了二次封装
 - vite.config会记录项目在打包的时候的打包时间
+- 项目gitee：https://gitee.com/sev3n_yuan/vue3-vite-ts-uniapp.git
+- 项目github：https://github.com/wepn13232/vue3-vite-ts-uniapp.git
