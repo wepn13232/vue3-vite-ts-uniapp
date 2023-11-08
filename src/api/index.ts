@@ -54,7 +54,7 @@ const fetch = (url: string, method: any, data: Record<string, any>, contentType?
  * 封装不同methods的接口请求
  * */
 class RequestHttp {
-	get<T>(url: string, data: Record<string, any>, contentType?: string): Promise<ResultData<T>> {
+	get<T>(url: string, data: Record<string, any>, contentType?: string): Promise<Result<T>> {
 		return fetch(url, "get", data, contentType);
 	}
 }

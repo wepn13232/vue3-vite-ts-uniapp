@@ -1,8 +1,5 @@
-interface Result {
+interface Result<T> {
 	code: string | number,
-	msg: string
-}
-
-interface ResultData<T> extends Result {
-	data: T;
+	msg: string,
+	data:T
 }
