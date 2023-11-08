@@ -1,6 +1,5 @@
 /**
  * 封装具体的接口请求（使用uniapp官方提供的api进行请求 https://uniapp.dcloud.net.cn/api/request/request.html#request）
- * 接口请求超时时间在mainfest.json中配置，设定了10s超时时间
  * */
 
 const header: any = {};
