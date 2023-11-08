@@ -35,7 +35,7 @@ export default defineConfig(({mode}) => {
 		css: {
 			preprocessorOptions: {
 				scss: {
-					additionalData: `@import "@/style/common.scss";`
+					additionalData: `@import "@/assets/style/common.scss";`
 				}
 			}
 		},
